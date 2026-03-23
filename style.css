@@ -1,0 +1,135 @@
+body{
+margin:0;
+font-family: "Segoe UI", sans-serif;
+background:linear-gradient(135deg,#ffd6e0,#fff3b0);
+color:#5a4a4a;
+text-align:center;
+}
+
+.section{
+padding:80px 20px;
+max-width:900px;
+margin:auto;
+}
+
+h1{
+font-size:36px;
+margin-bottom:20px;
+color:#c94f7c;
+}
+
+p{
+font-size:18px;
+line-height:1.8;
+max-width:700px;
+margin:auto;
+}
+
+.song{
+margin-top:25px;
+font-size:20px;
+padding:12px 30px;
+background:white;
+border-radius:30px;
+display:inline-block;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.gallery{
+margin-top:40px;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.gallery img{
+width:220px;
+border-radius:15px;
+transition:0.3s;
+box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+.section:not(:last-child){
+border-bottom:1px solid rgba(0,0,0,0.08);
+}
+body{
+margin:0;
+font-family: "Segoe UI", sans-serif;
+background:linear-gradient(135deg,#ffd6e0,#fff3b0);
+color:#5a4a4a;
+text-align:center;
+}
+
+.section{
+padding:70px 20px;
+max-width:900px;
+margin:auto;
+}
+
+h1{
+font-size:34px;
+margin-bottom:20px;
+color:#c94f7c;
+}
+
+p{
+font-size:18px;
+line-height:1.7;
+max-width:700px;
+margin:auto;
+}
+
+.song{
+margin-top:25px;
+font-size:20px;
+padding:12px 25px;
+background:white;
+border-radius:30px;
+display:inline-block;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.gallery{
+margin-top:35px;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
+
+.gallery img{
+width:220px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.15);
+transition:0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+/* มือถือ */
+@media (max-width:600px){
+
+h1{
+font-size:26px;
+}
+
+p{
+font-size:16px;
+}
+
+.gallery img{
+width:90%;
+}
+
+.section{
+padding:50px 15px;
+}
+
+}
